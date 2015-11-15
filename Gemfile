@@ -3,6 +3,8 @@ source 'https://rubygems.org'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.4'
+# Use Bcrypt for hashing passwords
+gem 'bcrypt'
 # Use Twitter's Bootstrap for styling
 gem 'bootstrap-sass'
 # Use postgresql as the database for Active Record
