@@ -7,6 +7,10 @@ gem 'rails', '4.2.4'
 gem 'bcrypt'
 # Generate sample data
 gem 'faker'
+# Image upload
+gem 'carrierwave'
+gem 'mini_magick'
+gem 'fog'
 # Use pagination for index page
 gem 'will_paginate'
 gem 'bootstrap-will_paginate'
