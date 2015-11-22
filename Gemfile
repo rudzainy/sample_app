@@ -5,6 +5,11 @@ source 'https://rubygems.org'
 gem 'rails', '4.2.4'
 # Use Bcrypt for hashing passwords
 gem 'bcrypt'
+# Generate sample data
+gem 'faker'
+# Use pagination for index page
+gem 'will_paginate'
+gem 'bootstrap-will_paginate'
 # Use Twitter's Bootstrap for styling
 gem 'bootstrap-sass'
 # Use postgresql as the database for Active Record
